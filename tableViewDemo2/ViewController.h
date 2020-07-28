@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CellViewController.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, CellDelegate>
 
 
 @end

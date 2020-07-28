@@ -14,6 +14,7 @@
 		168DD4C024D0180700F598EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168DD4BF24D0180700F598EC /* Assets.xcassets */; };
 		168DD4C324D0180700F598EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168DD4C124D0180700F598EC /* LaunchScreen.storyboard */; };
 		168DD4C624D0180700F598EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168DD4C524D0180700F598EC /* main.m */; };
+		168DD4CE24D0183400F598EC /* CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168DD4CD24D0183400F598EC /* CellViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		168DD4C224D0180700F598EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		168DD4C424D0180700F598EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		168DD4C524D0180700F598EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		168DD4CC24D0183400F598EC /* CellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellViewController.h; sourceTree = "<group>"; };
+		168DD4CD24D0183400F598EC /* CellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				168DD4B724D0180600F598EC /* SceneDelegate.m */,
 				168DD4B924D0180600F598EC /* ViewController.h */,
 				168DD4BA24D0180600F598EC /* ViewController.m */,
+				168DD4CC24D0183400F598EC /* CellViewController.h */,
+				168DD4CD24D0183400F598EC /* CellViewController.m */,
 				168DD4BC24D0180600F598EC /* Main.storyboard */,
 				168DD4BF24D0180700F598EC /* Assets.xcassets */,
 				168DD4C124D0180700F598EC /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 				168DD4BB24D0180600F598EC /* ViewController.m in Sources */,
 				168DD4B524D0180600F598EC /* AppDelegate.m in Sources */,
 				168DD4C624D0180700F598EC /* main.m in Sources */,
+				168DD4CE24D0183400F598EC /* CellViewController.m in Sources */,
 				168DD4B824D0180600F598EC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
